@@ -6,7 +6,7 @@ In this project I classify the sentiment of 25,000 Amazon product reviews, first
 
 - 25,000 reviews, split evenly across the 1-5 star ratings (5,000 per rating).
 - Two columns: `Review` (the text) and `Sentiment` (the star rating, 1 to 5).
-- The CSV is not included in this repo. Put it in the project folder next to the notebook (or change the path in the notebook) before running anything.
+- The CSV is included in this repo (`Amazon-Product-Reviews-Sentiment-Analysis-in-Python-Dataset.csv`). The notebook reads it from a Kaggle path, so change the path at the top to point at the file next to the notebook.
 
 ## How I approached it
 
